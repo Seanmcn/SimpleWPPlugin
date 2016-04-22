@@ -29,7 +29,7 @@ That is then hooked to WordPress in `includes/manager.php` in definePublicHooks(
 
 User uses short code [simple-wp-plugin-shortcode] and the content in `display.php` will show.
 
-### Admin Settings Page
+#### Admin Settings Page
 
 adminSettingsPage() in `admin/admin.php` loads `admin/partials/settingsManager.php`
 adminMenu() in `admin/admin.php` creates a link on the wp-admin menu for the page.
