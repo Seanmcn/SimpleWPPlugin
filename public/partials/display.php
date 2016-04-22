@@ -1,0 +1,1 @@
+<!-- This page would display when using the shortcode [simple-wp-plugin-shortcode] -->
