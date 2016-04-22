@@ -5,11 +5,11 @@
      * @package simple-wp-plugin
      * @wordpress-plugin
      * Plugin Name:       Simple WP Plugin Framework
-     * Plugin URI:        https://github.com/Seanmcn/WPWineDB
+     * Plugin URI:        https://github.com/Seanmcn/SimpleWPPlugin
      * Version:           1.0.0
      * Author:            Sean McNamara
      * Author URI:        http://seanmcn.com
-     * Text Domain:       WineDB
+     * Text Domain:       SimpleWPPlugin
      * License:           GPL-2.0+
      * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
      * Domain Path:       /languages

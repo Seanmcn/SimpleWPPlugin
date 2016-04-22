@@ -49,7 +49,7 @@
         {
             wp_enqueue_media();
 
-            wp_register_script('simpleWPPluginAdminJS', WP_PLUGIN_URL . '/simple-wp-plugin/admin/js/main.js', array('jquery', 'bmabNoty'));
+            wp_register_script('simpleWPPluginAdminJS', WP_PLUGIN_URL . '/simple-wp-plugin/admin/js/main.js', array('jquery'));
             wp_enqueue_script('simpleWPPluginAdminJS');
         }
 
@@ -58,7 +58,7 @@
          */
         function adminMenu()
         {
-            add_options_page('Simple WP Plugin Settings', 'simple-wp-plugin-settings', 'manage_options', 'wine_db', array(
+            add_options_page('Simple WP Plugin Settings', 'Simple WP Plugin Settings', 'manage_options', 'simple-wp-plugin-settings', array(
                 $this,
                 'adminSettingsPage'
             ));
